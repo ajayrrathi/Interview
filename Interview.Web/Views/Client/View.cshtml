@@ -1,0 +1,22 @@
+﻿@model IEnumerable<MasterProject.Core.Entities.Client>
+@{
+    ViewData["Title"] = "View Client";
+}
+
+<h1>View Client</h1>
+<table>
+    <tr>
+        <th>Client Name</th>
+
+    </tr>
+
+    @foreach (MasterProject.Core.Entities.Client item in Model)
+    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+        </tr>
+    }
+</table>
+
