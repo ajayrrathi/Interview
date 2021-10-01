@@ -1,0 +1,17 @@
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.csprojAssemblyReference.cache
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.AssemblyInfoInputs.cache
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.AssemblyInfo.cs
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\Interview.Infrastructure.deps.json
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\Interview.Infrastructure.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\Interview.Infrastructure.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\MasterProject.Core.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\MasterProject.Core.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.csproj.CopyComplete
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\Interview.Infrastructure.runtimeconfig.json
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\bin\Debug\netcoreapp3.1\Interview.Infrastructure.runtimeconfig.dev.json
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Data\Study project\MVC\Interview\Interview\Interview.Infrastructure\obj\Debug\netcoreapp3.1\Interview.Infrastructure.genruntimeconfig.cache

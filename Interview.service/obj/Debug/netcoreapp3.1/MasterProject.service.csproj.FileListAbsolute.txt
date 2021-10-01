@@ -1,0 +1,14 @@
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.service.deps.json
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.service.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.service.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.Core.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.Core.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.csprojAssemblyReference.cache
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.AssemblyInfoInputs.cache
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.AssemblyInfo.cs
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.csproj.CopyComplete
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.dll
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.pdb
+C:\Data\Study project\MVC\Interview\Interview\Interview.service\obj\Debug\netcoreapp3.1\MasterProject.service.csproj.CoreCompileInputs.cache

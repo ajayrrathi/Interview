@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
 using System.Threading.Tasks;
-using Interview.Web.Data.Interface;
+using MasterProject.service.Interface;
 using entity = MasterProject.Core.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Interview.Web.Data.Service;
+using MasterProject.service.Services;
 using MasterProject.Core.Entities;
 
 namespace Interview.Web

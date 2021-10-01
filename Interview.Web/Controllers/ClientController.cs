@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Interview.Web.Data.Interface;
+using MasterProject.service.Interface;
 using MasterProject.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 
