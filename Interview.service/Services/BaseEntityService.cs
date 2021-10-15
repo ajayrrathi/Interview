@@ -1,5 +1,4 @@
 ﻿using MasterProject.service.Interface;
-using MasterProject.Core.Entities;
 using MasterProject.SharedKernel.Entities;
 using MasterProject.SharedKernel.Interface;
 using Microsoft.AspNetCore.Mvc;

@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Interview.API.Interfaces;
+﻿using Interview.API.Interfaces;
 using MasterProject.SharedKernel.Entities;
 using MasterProject.SharedKernel.Interface;
 using MasterProject.SharedKernel.Specification;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Interview.API.Controllers
 {
-     
-    public class BaseEntityController<T> : ControllerBase, IBaseEntity<T> where T: BaseEntity, IAggregate
+
+    public class BaseEntityController<T> : ControllerBase, IBaseEntity<T> where T : BaseEntity, IAggregate
     {
         protected IRepository Repository;
         public BaseEntityController(IRepository repository)
@@ -39,7 +37,8 @@ namespace Interview.API.Controllers
         [HttpDelete("{Id:Guid}")]
         public virtual async Task<ActionResult<T>> Delete(Guid Id)
         {
-            try {
+            try
+            {
 
                 var ToDelete = (await Repository.ListAsync<T>(new BaseEntityByIdSpecification<T>(Id))).FirstOrDefault<T>();
                 if (ToDelete == null)
@@ -58,7 +57,7 @@ namespace Interview.API.Controllers
         [HttpGet()]
         public virtual async Task<ActionResult> Get()
         {
-             try
+            try
             {
                 return Ok(await Repository.ListAsync<T>());
             }
@@ -88,7 +87,8 @@ namespace Interview.API.Controllers
         [HttpPut()]
         public virtual async Task<ActionResult> Update(T Item)
         {
-            try {
+            try
+            {
                 if (Item == null || !ModelState.IsValid) return BadRequest();
 
                 await Repository.UpdateAsync<T>(Item).ConfigureAwait(false);

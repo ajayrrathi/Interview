@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Interview.service\MasterProject.service.csproj" />
+    <ProjectReference Include="..\Interview.service\MasterProject.Service.csproj" />
     <ProjectReference Include="..\MasterProject.Core\MasterProject.Core.csproj" />
   </ItemGroup>
 

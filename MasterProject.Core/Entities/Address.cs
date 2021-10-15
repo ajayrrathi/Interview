@@ -1,8 +1,7 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using MasterProject.SharedKernel.Entities;
+﻿using MasterProject.SharedKernel.Entities;
 using MasterProject.SharedKernel.Interface;
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MasterProject.Core.Entities
 {
@@ -12,7 +11,7 @@ namespace MasterProject.Core.Entities
         public string AddressLine2 { get; set; }
 
         public string City { get; set; }
-             
+
 
         public string ZipCode { get; set; }
 

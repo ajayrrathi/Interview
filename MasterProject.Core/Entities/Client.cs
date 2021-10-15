@@ -1,10 +1,8 @@
 ﻿using MasterProject.SharedKernel.Entities;
-using System;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
 using MasterProject.SharedKernel.Interface;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MasterProject.Core.Entities
 {
@@ -12,11 +10,11 @@ namespace MasterProject.Core.Entities
     {
         public string Name { get; set; }
 
-        
+
         public Guid? AddressID { get; set; }
         [ForeignKey("AddressID")]
         public Address Address { get; set; }
-         
+
 
         [InverseProperty("Client")]
         public IList<Product> Products { get; set; }

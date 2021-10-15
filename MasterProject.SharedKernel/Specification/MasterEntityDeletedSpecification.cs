@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MasterProject.SharedKernel.Specification
+﻿namespace MasterProject.SharedKernel.Specification
 {
     /// <summary>
     /// Specification return all records where delete status match the specified criteria

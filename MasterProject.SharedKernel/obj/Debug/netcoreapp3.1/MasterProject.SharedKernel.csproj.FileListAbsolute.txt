@@ -10,9 +10,9 @@ C:\Data\Study project\Blazor\MasterProject\MasterProjectSignalR\MasterProject.Sh
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.deps.json
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.dll
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.pdb
+C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.csproj.CoreCompileInputs.cache
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.AssemblyInfoInputs.cache
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.AssemblyInfo.cs
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.dll
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.pdb
-C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.csproj.CoreCompileInputs.cache
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.SharedKernel\obj\Debug\netcoreapp3.1\MasterProject.SharedKernel.csprojAssemblyReference.cache

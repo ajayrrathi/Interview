@@ -1,10 +1,7 @@
-﻿using MasterProject.service.Interface;
-using Interview.service.Services;
+﻿using Interview.service.Services;
 using MasterProject.Core.Entities;
-using System;
-using System.Collections.Generic;
+using MasterProject.service.Interface;
 using System.Net.Http;
-using System.Text;
 
 namespace MasterProject.service.Services
 {

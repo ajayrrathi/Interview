@@ -1,20 +1,17 @@
-﻿using entity = MasterProject.Core.Entities;
+﻿using MasterProject.Core.Entities;
+using MasterProject.Infrastructure.Data.Config;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using MasterProject.Core.Entities;
-using Interview.Infrastructure.Data.Config;
+using entity = MasterProject.Core.Entities;
 
-namespace Interview.Infrastructure.Data
+namespace MasterProject.Infrastructure.Data
 {
     public class AppDBContext : DbContext
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
-        { 
-        
+        {
+
         }
-         
+
         public DbSet<entity.Address> Addresses { get; set; }
         public DbSet<entity.Attribute> Attributes { get; set; }
 
@@ -63,7 +60,7 @@ namespace Interview.Infrastructure.Data
                      .Property(s => s.Id)
                      .HasDefaultValueSql("NEWID()");
 
-           
+
 
             modelBuilder.Entity<entity.Product>()
                      .Property(s => s.CreatedOn)

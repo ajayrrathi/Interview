@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MasterProject.SharedKernel.Interface
+﻿namespace MasterProject.SharedKernel.Interface
 {/// <summary>
 /// Apply This marker interface only to affregate root entities repositories will only work with 
 /// aggregate roots, not their children

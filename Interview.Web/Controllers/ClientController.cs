@@ -16,10 +16,15 @@ namespace Interview.Web.Controllers
         {
             _client = client;
         }
-        public IActionResult Index()
+        public  IActionResult Index()
         {
-            IList<Client> data = _client.GetAll().Result.ToList<Client>();
+            IList<Client> data = _client.GetAll().Result.ToList();
             return View(data);
+        }
+        public ActionResult Details(Guid id)
+        {
+            Client client = _client.Get(id).Result;
+            return View(client);
         }
     }
 }

@@ -1,10 +1,6 @@
-﻿using entity = MasterProject.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MasterProject.SharedKernel.Interface;
+﻿using MasterProject.SharedKernel.Interface;
 using Microsoft.AspNetCore.Mvc;
+using entity = MasterProject.Core.Entities;
 
 namespace Interview.API.Controllers
 {
@@ -17,5 +13,5 @@ namespace Interview.API.Controllers
 
         }
     }
-     
+
 }

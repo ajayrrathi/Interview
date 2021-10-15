@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Interview.Infrastructure.Data;
+﻿using MasterProject.Infrastructure.Data;
 using MasterProject.SharedKernel.Entities;
-using MasterProject.SharedKernel.Interface;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using System.Runtime.InteropServices.WindowsRuntime;
 using MasterProject.SharedKernel.Extension;
+using MasterProject.SharedKernel.Interface;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Interview.Infrastructure
+namespace MasterProject.Infrastructure
 {
     public class EfRepository : IRepository
     {

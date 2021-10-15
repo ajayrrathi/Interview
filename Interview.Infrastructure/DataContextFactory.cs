@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Interview.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-
+using MasterProject.Infrastructure.Data;
 namespace Interview.Infrastructure
 {
     public class DataContextFactory : IDesignTimeDbContextFactory<AppDBContext>

@@ -1,5 +1,3 @@
-using System;
-
 namespace Interview.Web.Models
 {
     public class ErrorViewModel

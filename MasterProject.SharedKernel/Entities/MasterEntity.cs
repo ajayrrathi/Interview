@@ -1,31 +1,41 @@
 ﻿using MasterProject.SharedKernel.Interface;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
+
 
 namespace MasterProject.SharedKernel.Entities
 {
-    public class MasterEntity : BaseEntity, IAggregate
+    /// <summary>
+    /// This class will be inherated  by the master entities. eg. Country, City, State
+    /// </summary>
+    public abstract class MasterEntity : BaseEntity, IAggregate
     {
+        /// <summary>
+        /// Alternate key. This is the unique code that will be used for retriving the values. 
+        /// </summary>
         [Required]
-        public string Code { get; set; }
-        [Required]
-        public string Name { get; set; }
-        public bool Deleted { get; set; } = false;
-        //public DateTime? createdOn { get; set; }
-        //[Required]
-        //public new DateTime? CreatedOn
-        //{
-        //    get
-        //    {
-        //        return base.CreatedOn;
-        //    }
+        [StringLength(200, ErrorMessage = "Please enter name with Minimum seven character and maximum 200 charater.", MinimumLength = 7)]
+        public virtual string Code { get; set; }
 
-        //    set {
-        //        base.CreatedOn = value;
-        //    }
+        /// <summary>
+        /// This is the display text for the master entity. This column detials will be used for displaying to user.  
+        /// </summary>
+        [Required]
+        [StringLength(200, ErrorMessage = "Please enter name with Minimum seven character and maximum 200 charater.", MinimumLength = 7)]
+        public virtual string Name { get; set; }
+
+        /// <summary>
+        /// Soft Delete for the Master records. 
+        /// </summary>
+        [ScaffoldColumn(false)]
+        public virtual bool Deleted { get; set; } = false;
+
+        //[DatabaseGenerated(DatabaseGeneratedOption.Computed)]
+        //public override DateTime? CreatedOn
+        //{
+        //    get;
+
+        //    set;
         //}
-        
+
     }
 }

@@ -4,9 +4,9 @@ C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\bin\Debug\netco
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.dll
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\bin\Debug\netcoreapp3.1\MasterProject.SharedKernel.pdb
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.csprojAssemblyReference.cache
-C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.csproj.CoreCompileInputs.cache
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.AssemblyInfoInputs.cache
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.AssemblyInfo.cs
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.csproj.CopyComplete
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.dll
 C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.pdb
+C:\Data\Study project\MVC\Interview\Interview\MasterProject.Core\obj\Debug\netcoreapp3.1\MasterProject.Core.csproj.CoreCompileInputs.cache

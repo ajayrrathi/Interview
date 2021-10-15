@@ -1,20 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Interview.Infrastructure;
-using Interview.Infrastructure.Data;
+using MasterProject.Infrastructure;
+using MasterProject.Infrastructure.Data;
 using MasterProject.SharedKernel.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.Options;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace Interview.API
 {
@@ -62,7 +54,7 @@ namespace Interview.API
             {
                 endpoints.MapControllers();
             });
-  
+
         }
     }
 }

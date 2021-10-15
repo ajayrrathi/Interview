@@ -4,17 +4,17 @@
     "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Web.Blazor.ServerApp\\MasterProject.Web.Blazor.ServerApp.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.service.csproj": {
+    "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.service.csproj",
-        "projectName": "MasterProject.service",
-        "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.service.csproj",
-        "packagesPath": "C:\\Users\\ajayr\\.nuget\\packages\\",
+        "projectUniqueName": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.Service.csproj",
+        "projectName": "MasterProject.Service",
+        "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.Service.csproj",
+        "packagesPath": "C:\\Users\\a_r_r\\.nuget\\packages\\",
         "outputPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ajayr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a_r_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,11 +79,11 @@
         "projectUniqueName": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Core\\MasterProject.Core.csproj",
         "projectName": "MasterProject.Core",
         "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Core\\MasterProject.Core.csproj",
-        "packagesPath": "C:\\Users\\ajayr\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\a_r_r\\.nuget\\packages\\",
         "outputPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ajayr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a_r_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,6 +110,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -135,11 +141,11 @@
         "projectUniqueName": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.SharedKernel\\MasterProject.SharedKernel.csproj",
         "projectName": "MasterProject.SharedKernel",
         "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.SharedKernel\\MasterProject.SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\ajayr\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\a_r_r\\.nuget\\packages\\",
         "outputPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ajayr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a_r_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,6 +169,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -193,11 +205,11 @@
         "projectUniqueName": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Web.Blazor.ServerApp\\MasterProject.Web.Blazor.ServerApp.csproj",
         "projectName": "MasterProject.Web.Blazor.ServerApp",
         "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Web.Blazor.ServerApp\\MasterProject.Web.Blazor.ServerApp.csproj",
-        "packagesPath": "C:\\Users\\ajayr\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\a_r_r\\.nuget\\packages\\",
         "outputPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\MasterProject.Web.Blazor.ServerApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ajayr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a_r_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,8 +222,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.service.csproj": {
-                "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.service.csproj"
+              "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.Service.csproj": {
+                "projectPath": "C:\\Data\\Study project\\MVC\\Interview\\Interview\\Interview.service\\MasterProject.Service.csproj"
               }
             }
           }

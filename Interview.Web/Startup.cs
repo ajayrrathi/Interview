@@ -1,18 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Policy;
-using System.Threading.Tasks;
 using MasterProject.service.Interface;
-using entity = MasterProject.Core.Entities;
+using MasterProject.service.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MasterProject.service.Services;
-using MasterProject.Core.Entities;
+using System;
 
 namespace Interview.Web
 {
@@ -62,7 +55,7 @@ namespace Interview.Web
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-           
+
         }
     }
 }

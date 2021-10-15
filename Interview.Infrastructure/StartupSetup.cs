@@ -1,9 +1,6 @@
-﻿using Interview.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using MasterProject.Infrastructure.Data;
 
 namespace Interview.Infrastructure
 {
